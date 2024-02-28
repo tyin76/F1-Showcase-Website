@@ -1,0 +1,488 @@
+/* styles.css */
+
+
+@font-face {
+    font-family: F1 Font-Regular;
+    src: url('./Formula1-Regular.ttf') format('truetype');
+  }
+
+
+@font-face {
+    font-family: F1 Font-Bold;
+    src: url(./Formula1-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: F1 Font-Wide;
+    src: url(./Formula1-Wide.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: F1 Font-Black;
+    src: url(./Formula1-Black.ttf) format('truetype');
+}
+
+body {
+    background-color:black;
+}
+
+h2 {
+    font-family: 'F1 Font-Black';
+}
+
+h3 {
+    text-align: left;
+}
+
+.Stats {
+    font-family: 'F1 Font-Regular';
+}
+
+/* h4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.title-head {
+    color: yellow;
+    text-align: center;
+    font-family:'F1 Font-Bold';
+}
+
+.drivers-title {
+    color: yellow;
+    text-align: center;
+    font-family: 'F1 Font-Regular';
+}
+
+.instagram-icon {
+    color: rgb(230, 49, 194);
+    font-size: 25px;
+}
+
+.facebook-icon {
+    color: rgb(0, 98, 255);
+    font-size: 25px;
+}
+
+.Icons {
+    text-align: center;
+}
+
+.Constructors-button {
+    text-align: center;
+}
+
+
+/* Red Bull */
+
+.Red-Bull-Drivers {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.Max {
+   
+    flex: 1;
+    color: white;
+    text-align: center;
+    
+}
+
+.Max-Logo {
+    margin-top: -55px;
+    margin-left: 370px;
+}
+
+.Max-Photo {
+    margin-top: -50px; 
+}
+
+
+.Perez{
+   
+    flex: 1;
+    color: white;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.Perez-Logo {
+    margin-top: -55px;
+    margin-left: 330px;
+}
+
+.Perez-Photo {
+    margin-top: -50px;
+}
+
+
+
+
+/* Ferrari */
+
+.Ferrari-Drivers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Leclerc {
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.Leclerc-Logo {
+    margin-top: -55px;
+    margin-left: 280px;
+}
+
+.Leclerc-Photo {
+    margin-top: -60px;
+}
+
+.Sainz {
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.Sainz-Logo {
+    margin-top: -75px;
+    margin-left: 265px;
+}
+
+.Sainz-Photo {
+    margin-top: -35px;
+}
+
+
+/* Mercedes */
+
+.Mercedes-Drivers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Hamilton {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.Hamilton-Logo {
+    margin-left: 290px;
+    margin-top: -40px;
+}
+
+.Hamilton-Photo {
+    margin-top: -40px;
+}
+
+.Russell {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.Russell-Logo {
+    margin-top: -60px;
+    margin-left: 290px;
+    
+}
+
+.Russell-Photo {
+    margin-top: -15px;
+}
+
+
+/* McLaren */
+
+.McLaren-Drivers {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.Lando {
+    flex: 1;
+    color: white;
+    text-align: center;
+
+
+}
+
+.Lando-Logo {
+    margin-left: 250px;
+    margin-top: -50px;
+}
+
+.Lando-Photo {
+    margin-top: -7px;
+
+}
+
+.Piastri {
+
+    flex: 1;
+    text-align: center;
+    color: white;
+
+}
+
+.Piastri-Logo {
+
+    margin-left: 265px;
+    margin-top: -50px;
+
+}
+
+.Piastri-Photo {
+
+    margin-top: -7px;
+
+}
+
+/* Aston Martin */
+
+.Aston-Drivers {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Alonso {
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+.Alonso-Logo {
+
+    margin-left: 350px;
+    margin-top: -45px;
+
+}
+
+.Alonso-Photo {
+    margin-top: -22px;
+
+}
+
+.Stroll {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.Stroll-Logo {
+    margin-left: 300px;
+    margin-top: -43px;
+
+}
+
+.Stroll-Photo {
+    margin-top: -20px;
+
+}
+
+/* Alpine */
+
+.Alpine-Drivers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Gasly {
+
+    flex: 1;
+    text-align: center;
+    color: white;
+
+}
+
+.Gasly-Logo {
+    margin-left: 265px;
+    margin-top: -62px;
+    
+
+}
+
+.Gasly-Photo {
+    margin-top: -10px;
+}
+
+.Ocon {
+    flex: 1;
+    text-align: center;
+    color: white;
+
+}
+
+.Ocon-Logo {
+    margin-left: 265px;
+    margin-top: -62px;
+
+}
+
+.Ocon-Photo {
+    margin-top: -10px;
+}
+
+/* RB */
+
+.RB-Drivers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Yuki {
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+.Yuki-Logo {
+    margin-left: 310px;
+    margin-top: -60px;
+
+}
+
+.Yuki-Photo {
+    margin-top: -40px;
+
+}
+
+.Ricciardo {
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+.Ricciardo-Logo {
+    margin-left: 320px;
+    margin-top: -60px;
+}
+
+.Ricciardo-Photo {
+    margin-top: -35px;
+}
+
+
+/* Stake Kick Sauber */
+
+.Kick-Drivers {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.Zhou {
+    color: white;
+    text-align: center;
+    flex: 1;
+
+}
+
+.Zhou-Logo {
+    margin-left: 300px;
+    margin-top: -75px;
+
+}
+
+.Zhou-Photo {
+    margin-top: -20px;
+
+}
+
+.Bottas {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.Bottas-Logo {
+    margin-left: 350px;
+    margin-top: -75px;
+
+}
+
+.Bottas-Photo {
+    margin-top: -20px;
+
+}
+
+/* Haas */
+
+.Haas-Drivers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Kevin {
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.Kevin-Logo {
+    margin-left: 365px;
+    margin-top: -65px;
+}
+
+.Kevin-Photo {
+    margin-top: -20px;
+}
+
+.Nico {
+    color: white;
+    text-align: center;
+    flex: 1;
+
+}
+
+.Nico-Logo {
+    margin-left: 355px;
+    margin-top: -65px;
+
+
+}
+
+.Nico-Photo {
+    margin-top: -20px;
+}
+
+
+/* Front Page */
+
+.Video {
+    text-align: center;
+}
+
+.click-to-index-button {
+    text-align: center;
+}
+
+
+
