@@ -1,10 +1,22 @@
-function today_date() {
-    let d = new Date();
-    alert("HELLO's date is " + d);
+const quizform = document.getElementById('quiz-form');
+const resultDiv = document.getElementById('result');
+const correctAnswers = ['a','c','d'];
 
-    for (i=0; i < 10; i++) {
-        console.log("GOODBYE");
-    }
+quizform.addEventListener('submit', e=> {
 
-    console.log("OH YAAA!");
-}
+    e.preventDefault();
+    let score = 0;
+    const userAnswers = [quizform.q1.value, quizform.q2.value, quizform.q3.value];
+    userAnswers.forEach((answer, index) => {
+        if (answer === correctAnswers[index]) {
+            score += 1;
+        }
+    });
+
+    resultDiv.innerHTML = `Your score is ${score}/${correctAnswers.length}`;
+
+
+});
+
+
+
