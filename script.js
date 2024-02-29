@@ -18,5 +18,3 @@ quizform.addEventListener('submit', e=> {
 
 });
 
-
-
