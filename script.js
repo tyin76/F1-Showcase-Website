@@ -1,12 +1,13 @@
 const quizform = document.getElementById('quiz-form');
 const resultDiv = document.getElementById('result');
-const correctAnswers = ['a','c','d','b','a','c'];
+const correctAnswers = ['a','c','d','b','a','c','d','c','b', 'a'];
 
 quizform.addEventListener('submit', e=> {
 
     e.preventDefault();
     let score = 0;
-    const userAnswers = [quizform.q1.value, quizform.q2.value, quizform.q3.value, quizform.q4.value, quizform.q5.value, quizform.q6.value];
+    const userAnswers = [quizform.q1.value, quizform.q2.value, quizform.q3.value, quizform.q4.value, quizform.q5.value, 
+        quizform.q6.value, quizform.q7.value, quizform.q8.value, quizform.q9.value, quizform.q10.value];
     const incorrectAnswers = [];
     userAnswers.forEach((answer, index) => {
         if (answer === correctAnswers[index]) {
