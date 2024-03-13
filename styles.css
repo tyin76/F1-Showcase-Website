@@ -478,6 +478,46 @@ h3 {
 }
 
 
+.Williams-Drivers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.Albon {
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.Albon-Logo {
+    margin-left: 240px;
+    margin-top: -55px;
+
+}
+
+.Albon-Photo {
+
+}
+
+.Logan {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.Logan-Logo {
+    margin-left: 310px;
+    margin-top: -55px;
+}
+
+.Logan-Photo {
+
+}
+
+
                                     /* Front Page */
 
 .Video {
@@ -627,6 +667,114 @@ input[type="radio"] {
     text-align: center;
     color: black;
 }
+
+
+
+/*Constructors*/
+
+.Constructors {
+    
+}
+
+.format-flex-first-row {
+    display: flex;
+}
+
+
+.Red-Bull {
+    flex: 1;
+    text-align: center;
+    margin-top: -10px;
+}  
+
+.Mercedes {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Mercedes-Logo {
+    padding: 18px;
+}
+
+.wiki-icon {
+    color: red;
+}
+
+.McLaren {
+    flex: 1;
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+.format-flex-second-row {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.Ferrari {
+    flex: 1;
+    text-align: center;
+
+}
+
+.Aston-Martin {
+    flex: 1;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Kick-Sauber {
+    flex: 1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.format-flex-third-row {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+
+.Alpine {
+    flex: 1;
+    text-align: center;
+}
+
+.Williams {
+    flex: 1;
+    text-align: center;
+}
+
+.Haas {
+    flex: 1;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+.format-fourth-row {
+    display: flex;
+}
+
+.RB {
+    flex: 1;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
