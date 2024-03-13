@@ -42,10 +42,6 @@ h3 {
     text-align: center;
 }
 
-/* h4 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
-
 .title-head {
     color: silver;
     text-align: center;
@@ -76,7 +72,6 @@ h3 {
     text-align: center;
 }
 
-
 /* Red Bull */
 
 .Red-Bull-Drivers {
@@ -102,7 +97,7 @@ h3 {
 }
 
 .Max-Photo {
-    margin-top: -50px; 
+    margin-top: -50px;
 }
 
 
